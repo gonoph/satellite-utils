@@ -28,7 +28,7 @@ It could fail for several reasons, but mostly because:
 * it's locked
 * the template has a duplicate name
 
-=== `getca.sh`
+### `getca.sh`
 
 This is a script using sed magic to extract out the certificate chain from an ssl connection. It ignores the first
 certificate, which should be the server certificate, and returns the actual CA chain afterwards.
