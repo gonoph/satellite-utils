@@ -28,6 +28,10 @@ It could fail for several reasons, but mostly because:
 * it's locked
 * the template has a duplicate name
 
+## Scripts
+
+This is a collection of scripts I use to help stand up new servers - which include Satellite servers.
+
 ### `getca.sh`
 
 This is a script using sed magic to extract out the certificate chain from an ssl connection. It ignores the first
